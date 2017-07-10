@@ -1,8 +1,8 @@
-var firstPromise = first();
+var first = first();
 
-var secondPromise = firstPromise.then(function (value) {
+var second = first.then(function (value) {
   return second(value);
-  
+
 });
 
-secondPromise.then(console.log);
+second.then(console.log);
