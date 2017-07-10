@@ -1,6 +1,6 @@
-function attachTitle(name) {
-  return 'DR. ' + name;
-  
+function attachTitle(isName) {
+  return 'DR. ' + isName;
+
 }
 
 Promise.resolve('MANHATTAN')
